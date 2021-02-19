@@ -1,2 +1,2 @@
 # LeetCodeAlgorithmExercise
-A private repository for practicing algorithms.
+A personal repository for practicing algorithms.
