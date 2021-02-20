@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.solution2;
 
 /**
  * 2.两数相加

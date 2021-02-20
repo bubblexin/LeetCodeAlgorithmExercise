@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.solution2;
 
 public class ListNode {
     int val;
