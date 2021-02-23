@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 724.寻找数组的中心索引
  * https://leetcode-cn.com/problems/find-pivot-index/
- * 给你一个整数数组 nums，请编写一个能够返回数组 “中心索引” 的方法。
+ * 给你一个整数数组 nums，请编写一个能够返回数组 “中心索引” 的方法。
  *
  * 数组 中心索引 是数组的一个索引，其左侧所有元素相加的和等于右侧所有元素相加的和。
  *

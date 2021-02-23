@@ -1,12 +1,17 @@
 import leetcode.Solution3;
 
 import leetcode.Solution7;
+import leetcode.bean.ListNode;
+import leetcode.offer.Offer25;
 
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
+
+import static leetcode.Utils.Utils.printListNode;
+import static leetcode.Utils.Utils.productListNode;
 
 
 public class Main {
@@ -16,5 +21,7 @@ public class Main {
 //        System.out.println(new Solution3().lengthOfLongestSubstring("pwwkew"));
 //        System.out.println(new Solution7().reverse(-123));
 
+        printListNode(new Offer25().mergeTwoLists(productListNode(new int[]{1, 2, 4}), productListNode(new int[]{1, 3, 4})));
     }
+
 }

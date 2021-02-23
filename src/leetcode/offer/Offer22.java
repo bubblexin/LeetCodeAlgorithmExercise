@@ -1,7 +1,6 @@
 package leetcode.offer;
 
-import com.sun.org.apache.bcel.internal.generic.FieldOrMethod;
-import leetcode.solution2.ListNode;
+import leetcode.bean.ListNode;
 
 /**
  * 22.链表中倒数第 k 个节点
