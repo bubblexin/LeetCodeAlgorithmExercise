@@ -33,4 +33,16 @@ public class Utils {
         }
         System.out.print("]");
     }
+
+    /**
+     * 交换数组中两个位置的元素
+     * @param arr
+     * @param i
+     * @param j
+     */
+    public static void swapIntArrayElement(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }

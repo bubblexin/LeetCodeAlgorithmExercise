@@ -8,6 +8,7 @@ A personal repository for practicing algorithms.
 * [Offer22 链表中倒数第 k 个节点](src/leetcode/offer/Offer22.java)
 * [Offer25 合并两个排序的链表](src/leetcode/offer/Offer25.java)
 * [Offer24 反转链表](src/leetcode/offer/Offer24.java)
+* [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 
 ### 字符串：
 
@@ -22,3 +23,7 @@ A personal repository for practicing algorithms.
 * [Offer3 数组中重复的数字](src/leetcode/offer/Offer3.java)
 * [Solution153 寻找旋转排序数组中的最小值](src/leetcode/Solution153.java)
 * [Offer11 旋转数组的最小数字](src/leetcode/offer/Offer11.java)  Solution153 的进阶版
+
+### 递归
+* [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
+* [Offer64 求1+2+…+n](src/leetcode/offer/Offer64.java)
