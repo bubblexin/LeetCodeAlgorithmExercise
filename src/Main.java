@@ -1,18 +1,6 @@
-import leetcode.Solution153;
-import leetcode.Solution3;
-
-import leetcode.Solution7;
-import leetcode.bean.ListNode;
-import leetcode.offer.Offer25;
-
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-
-import static leetcode.Utils.Utils.printListNode;
-import static leetcode.Utils.Utils.productListNode;
+import sort.BubbleSort;
+import sort.QuickSort;
+import sort.SelectSort;
 
 
 public class Main {
@@ -23,7 +11,15 @@ public class Main {
 //        System.out.println(new Solution7().reverse(-123));
 
 //        printListNode(new Offer25().mergeTwoLists(productListNode(new int[]{1, 2, 4}), productListNode(new int[]{1, 3, 4})));
-        System.out.println(new Solution153().findMin(new int[]{3,4, 5, 1, 2}));
+//        System.out.println(new Solution153().findMin(new int[]{3,4, 5, 1, 2}));
+//        System.out.println(Arrays.toString(new Offer6().reversePrint(productListNode(new int[]{1, 3, 2}))));
+//        System.out.println(Arrays.toString(new Offer6().reverse(productListNode(new int[]{1, 3, 2}))));
+//        System.out.println(new Offer64().sumNums(9));
+//        System.out.println(new Offer10().fib(3));
+
+//        new SelectSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
+//        new BubbleSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
+        new QuickSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
     }
 
 }

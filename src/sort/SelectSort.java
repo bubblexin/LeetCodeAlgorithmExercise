@@ -1,6 +1,8 @@
-package leetcode;
+package sort;
 
 import java.util.Arrays;
+
+import static leetcode.Utils.Utils.swapIntArrayElement;
 
 public class SelectSort {
     public void sort(int[] nums) {
@@ -17,9 +19,7 @@ public class SelectSort {
             }
 
             if (i != min) {
-                int temp = arr[i];
-                arr[i] = arr[min];
-                arr[min] = temp;
+                swapIntArrayElement(arr, i, min);
             }
         }
         System.out.println(Arrays.toString(arr));

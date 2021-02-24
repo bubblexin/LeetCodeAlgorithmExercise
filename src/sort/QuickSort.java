@@ -2,29 +2,37 @@ package sort;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+import static leetcode.Utils.Utils.swapIntArrayElement;
+
+public class QuickSort {
     public void sort(int[] nums) {
         // copy 一份数组，不改变原数组内容
         int[] arr = Arrays.copyOf(nums, nums.length);
 
-        for (int i = 1; i < arr.length; i++) {
-            // 设置标记位，若此次没有交换，则证明已经有序
-            boolean flag = true;
+        quickSort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+    }
 
-            for (int j = 0; j < arr.length - i; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+    private int[] quickSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int partitionIndex = partition(arr, left, right);
+            quickSort(arr, left, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, right);
+        }
+        return arr;
+    }
 
-                    flag = false;
-                }
-            }
-
-            if (flag) {
-                break;
+    private int partition(int[] arr, int left, int right) {
+        // 设定基准值（pivot）
+        int pivot = left;
+        int index = pivot + 1;
+        for (int i = index; i <= right; i++) {
+            if (arr[i] < arr[pivot]) {
+                swapIntArrayElement(arr, i, index);
+                index++;
             }
         }
-        System.out.println(Arrays.toString(arr));
+        swapIntArrayElement(arr, pivot, index - 1);
+        return index - 1;
     }
 }

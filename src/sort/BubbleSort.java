@@ -1,6 +1,8 @@
-package leetcode;
+package sort;
 
 import java.util.Arrays;
+
+import static leetcode.Utils.Utils.swapIntArrayElement;
 
 public class BubbleSort {
     public void sort(int[] nums) {
@@ -13,10 +15,7 @@ public class BubbleSort {
 
             for (int j = 0; j < arr.length - i; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-
+                    swapIntArrayElement(arr, j, j + 1);
                     flag = false;
                 }
             }
