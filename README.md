@@ -7,6 +7,7 @@ A personal repository for practicing algorithms.
 * [Solution2 两数相加](src/leetcode/Solution2.java)
 * [Offer22 链表中倒数第 k 个节点](src/leetcode/offer/Offer22.java)
 * [Offer25 合并两个排序的链表](src/leetcode/offer/Offer25.java)
+* [Offer24 反转链表](src/leetcode/offer/Offer24.java)
 
 ### 字符串：
 
