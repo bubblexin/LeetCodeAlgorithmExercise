@@ -15,6 +15,7 @@ A personal repository for practicing algorithms.
 * [Solution3 无重复字符的最长子串](src/leetcode/Solution3.java)
 * [Solution242 有效的字母异位词](src/leetcode/Solution242.java)
 * [Offer58 左旋转字符串](src/leetcode/offer/Offer58.java)
+* [Offer5 替换空格](src/leetcode/offer/Offer5.java)
 
 ### 数组：
 
@@ -23,6 +24,7 @@ A personal repository for practicing algorithms.
 * [Offer3 数组中重复的数字](src/leetcode/offer/Offer3.java)
 * [Solution153 寻找旋转排序数组中的最小值](src/leetcode/Solution153.java)
 * [Offer11 旋转数组的最小数字](src/leetcode/offer/Offer11.java)  Solution153 的进阶版
+* [Offer21 调整数组顺序使奇数位于偶数前面](src/leetcode/offer/Offer21.java)  
 
 ### 递归
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)

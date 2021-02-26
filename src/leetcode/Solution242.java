@@ -17,12 +17,8 @@ package leetcode;
  * 你可以假设字符串只包含小写字母。
  */
 public class Solution242 {
-    public static void main(String[] args) {
-        System.out.println(isAnagram("abc", "abd"));
 
-    }
-
-    public static boolean isAnagram(String s, String t) {
+    public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
