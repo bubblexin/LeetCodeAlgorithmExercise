@@ -25,6 +25,10 @@ import java.util.Comparator;
  * <p>
  * 输出结果可能非常大，所以你需要返回一个字符串而不是整数
  * 拼接起来的数字可能会有前导 0，最后结果不需要去掉前导 0
+ *
+ * 题解：
+ * 将数组转为 String 类型的数组，则对应的每两个相邻元素的 + 操作得出的字符串可以得出如下公式：
+ * x + y > y + x 则 x > y，交换 xy 的位置，如 “3” + “30” = "330" > "30" + "3" = "303"
  */
 public class Offer45 {
     public String minNumber(int[] nums) {

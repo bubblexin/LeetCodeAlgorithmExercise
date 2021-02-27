@@ -28,9 +28,10 @@ public class Main {
 //        new SelectSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
 //        new BubbleSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
 //        new QuickSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
+        new QuickSort().sort(new int[]{3, 44, 1, 4, 5, 9, 2, 1});
 //        System.out.println(new Offer5().replaceSpace2("We are happy.We are happy."));
 //        System.out.println(Arrays.toString(new Offer21().exchange2(new int[]{1, 2, 3, 4})));
 //        System.out.println(Arrays.toString(new Offer40().getLeastNumbers(new int[]{0, 1, 2, 1}, 2)));
-        System.out.println(new Offer45().minNumber2(new int[]{3, 30, 1, 5, 4}));
+//        System.out.println(new Offer45().minNumber2(new int[]{3, 30, 1, 5, 4}));
     }
 }
