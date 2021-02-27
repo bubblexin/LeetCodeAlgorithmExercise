@@ -2,7 +2,9 @@
 
 A personal repository for practicing algorithms.
 
-### 链表
+[TOC]
+
+## 链表
 
 * [Solution2 两数相加](src/leetcode/Solution2.java)
 * [Offer22 链表中倒数第 k 个节点](src/leetcode/offer/Offer22.java)
@@ -10,14 +12,14 @@ A personal repository for practicing algorithms.
 * [Offer24 反转链表](src/leetcode/offer/Offer24.java)
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 
-### 字符串：
+## 字符串：
 
 * [Solution3 无重复字符的最长子串](src/leetcode/Solution3.java)
 * [Solution242 有效的字母异位词](src/leetcode/Solution242.java)
 * [Offer58 左旋转字符串](src/leetcode/offer/Offer58.java)
 * [Offer5 替换空格](src/leetcode/offer/Offer5.java)
 
-### 数组：
+## 数组：
 
 * [Solution1 两数之和](src/leetcode/Solution1.java)
 * [Solution724 寻找数组的中心索引](src/leetcode/Solution724.java)
@@ -25,7 +27,12 @@ A personal repository for practicing algorithms.
 * [Solution153 寻找旋转排序数组中的最小值](src/leetcode/Solution153.java)
 * [Offer11 旋转数组的最小数字](src/leetcode/offer/Offer11.java)  Solution153 的进阶版
 * [Offer21 调整数组顺序使奇数位于偶数前面](src/leetcode/offer/Offer21.java)  
+* [Offer40 最小的k个数](src/leetcode/offer/Offer40.java)  
+* [Offer45 把数组排成最小的数](src/leetcode/offer/Offer45.java)
 
-### 递归
+## 栈、队列
+* [Offer9 用两个栈实现队列](src/leetcode/offer/Offer9.java)
+
+## 递归
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 * [Offer64 求1+2+…+n](src/leetcode/offer/Offer64.java)
