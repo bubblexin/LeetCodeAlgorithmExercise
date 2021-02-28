@@ -33,5 +33,6 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer56I().singleNumbers(new int[]{1,2,10,4,1,4,3,3})));
 //        System.out.println(Arrays.toString(new Offer56I().singleNumbers2(new int[]{1, 2, 4, 1, 4, 3, 3})));
 //        System.out.println(Arrays.toString(new Offer56I().singleNumbers3(new int[]{1, 2, 10, 4, 1, 4, 3, 3})));
+        System.out.println(new Offer56II().singleNumber(new int[]{9,1,7,9,7,9,7}));
     }
 }

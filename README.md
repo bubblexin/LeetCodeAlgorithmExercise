@@ -30,6 +30,7 @@ A personal repository for practicing algorithms.
 * [Offer40 最小的k个数](src/leetcode/offer/Offer40.java)
 * [Offer45 把数组排成最小的数](src/leetcode/offer/Offer45.java)
 * [Offer56 - I. 数组中数字出现的次数](src/leetcode/offer/Offer56I.java)
+* [56 - II. 数组中数字出现的次数 II](src/leetcode/offer/Offer56II.java)
 
 ## 栈、队列
 
