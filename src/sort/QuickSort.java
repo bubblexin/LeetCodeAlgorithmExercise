@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 import static leetcode.Utils.Utils.swapIntArrayElement;
 
+/**
+ * http://data.biancheng.net/view/117.html
+ */
 public class QuickSort {
     public void sort(int[] nums) {
         // copy 一份数组，不改变原数组内容

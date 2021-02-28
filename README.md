@@ -26,13 +26,16 @@ A personal repository for practicing algorithms.
 * [Offer3 数组中重复的数字](src/leetcode/offer/Offer3.java)
 * [Solution153 寻找旋转排序数组中的最小值](src/leetcode/Solution153.java)
 * [Offer11 旋转数组的最小数字](src/leetcode/offer/Offer11.java)  Solution153 的进阶版
-* [Offer21 调整数组顺序使奇数位于偶数前面](src/leetcode/offer/Offer21.java)  
-* [Offer40 最小的k个数](src/leetcode/offer/Offer40.java)  
+* [Offer21 调整数组顺序使奇数位于偶数前面](src/leetcode/offer/Offer21.java)
+* [Offer40 最小的k个数](src/leetcode/offer/Offer40.java)
 * [Offer45 把数组排成最小的数](src/leetcode/offer/Offer45.java)
+* [Offer56 - I. 数组中数字出现的次数](src/leetcode/offer/Offer56I.java)
 
 ## 栈、队列
+
 * [Offer9 用两个栈实现队列](src/leetcode/offer/Offer9.java)
 
 ## 递归
+
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 * [Offer64 求1+2+…+n](src/leetcode/offer/Offer64.java)
