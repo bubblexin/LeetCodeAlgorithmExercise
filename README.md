@@ -18,6 +18,7 @@ A personal repository for practicing algorithms.
 * [Solution242 有效的字母异位词](src/leetcode/Solution242.java)
 * [Offer58 左旋转字符串](src/leetcode/offer/Offer58.java)
 * [Offer5 替换空格](src/leetcode/offer/Offer5.java)
+* [Offer50 第一个只出现一次的字符](src/leetcode/offer/Offer50.java)
 
 ## 数组：
 
@@ -30,7 +31,8 @@ A personal repository for practicing algorithms.
 * [Offer40 最小的k个数](src/leetcode/offer/Offer40.java)
 * [Offer45 把数组排成最小的数](src/leetcode/offer/Offer45.java)
 * [Offer56 - I. 数组中数字出现的次数](src/leetcode/offer/Offer56I.java)
-* [56 - II. 数组中数字出现的次数 II](src/leetcode/offer/Offer56II.java)
+* [Offer56 - II. 数组中数字出现的次数 II](src/leetcode/offer/Offer56II.java)
+* [Offer17 打印从1到最大的n位数](src/leetcode/offer/Offer17.java)
 
 ## 栈、队列
 
