@@ -11,6 +11,7 @@ A personal repository for practicing algorithms.
 * [Offer25 合并两个排序的链表](src/leetcode/offer/Offer25.java)
 * [Offer24 反转链表](src/leetcode/offer/Offer24.java)
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
+* [Offer18 删除链表的节点](src/leetcode/offer/Offer18.java)
 
 ## 字符串：
 
@@ -33,6 +34,7 @@ A personal repository for practicing algorithms.
 * [Offer56 - I. 数组中数字出现的次数](src/leetcode/offer/Offer56I.java)
 * [Offer56 - II. 数组中数字出现的次数 II](src/leetcode/offer/Offer56II.java)
 * [Offer17 打印从1到最大的n位数](src/leetcode/offer/Offer17.java)
+* [Offer4 二维数组中的查找](src/leetcode/offer/Offer4.java)
 
 ## 栈、队列
 

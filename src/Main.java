@@ -35,6 +35,8 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer56I().singleNumbers3(new int[]{1, 2, 10, 4, 1, 4, 3, 3})));
 //        System.out.println(new Offer56II().singleNumber(new int[]{9,1,7,9,7,9,7}));
 //        System.out.println(new Offer50().firstUniqChar("leetcode"));
-        System.out.println(Arrays.toString(new Offer17().printNumbers(3)));
+//        System.out.println(Arrays.toString(new Offer17().printNumbers(3)));
+        System.out.println(new Offer4().findNumberIn2DArray2(new int[][]{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}},
+                20));
     }
 }
