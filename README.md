@@ -40,6 +40,10 @@ A personal repository for practicing algorithms.
 
 * [Offer9 用两个栈实现队列](src/leetcode/offer/Offer9.java)
 
+## 树
+* [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
+* [Offer55 - II. 平衡二叉树](src/leetcode/offer/Offer55II.java)
+
 ## 递归
 
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)

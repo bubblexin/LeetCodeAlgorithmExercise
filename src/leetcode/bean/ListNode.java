@@ -1,5 +1,8 @@
 package leetcode.bean;
 
+/**
+ * 链表数据结构 bean
+ */
 public class ListNode {
     public int val;
     public ListNode next;
