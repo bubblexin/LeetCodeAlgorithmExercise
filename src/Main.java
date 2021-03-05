@@ -38,6 +38,6 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer17().printNumbers(3)));
 //        System.out.println(new Offer4().findNumberIn2DArray2(new int[][]{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}, {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}},
 //                20));
-        System.out.println(Arrays.toString(new Offer57().twoSum(new int[]{10, 26, 30, 31, 47, 60}, 40)));
+//        System.out.println(Arrays.toString(new Offer57().twoSum(new int[]{10, 26, 30, 31, 47, 60}, 40)));
     }
 }

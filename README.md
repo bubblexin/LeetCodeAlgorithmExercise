@@ -36,6 +36,7 @@ A personal repository for practicing algorithms.
 * [Offer17 打印从1到最大的n位数](src/leetcode/offer/Offer17.java)
 * [Offer4 二维数组中的查找](src/leetcode/offer/Offer4.java)
 * [Offer57. 和为s的两个数字](src/leetcode/offer/Offer57.java)
+* [Offer57 - II. 和为s的连续正数序列](src/leetcode/offer/Offer57II.java)
 
 ## 栈、队列
 
