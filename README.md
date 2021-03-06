@@ -37,10 +37,12 @@ A personal repository for practicing algorithms.
 * [Offer4 二维数组中的查找](src/leetcode/offer/Offer4.java)
 * [Offer57. 和为s的两个数字](src/leetcode/offer/Offer57.java)
 * [Offer57 - II. 和为s的连续正数序列](src/leetcode/offer/Offer57II.java)
+* [Offer59I. 滑动窗口的最大值](src/leetcode/offer/Offer59I.java)
 
 ## 栈、队列
 
 * [Offer9 用两个栈实现队列](src/leetcode/offer/Offer9.java)
+* [Offer30 包含 min 函数的栈](src/leetcode/offer/Offer30.java)
 
 ## 树
 * [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
