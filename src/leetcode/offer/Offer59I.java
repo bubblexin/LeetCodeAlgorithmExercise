@@ -61,6 +61,7 @@ public class Offer59I {
      * [i,j] 每个区间 j - i + 1 = k 个数
      * 左边界范围 i ∈ [1  - k, n - k]
      * 右边界范围 j ∈ [0, n - 1]
+     * 定义一个非递增单调队列，比较每个窗口中新加入进来的数，与队列尾比较，队列尾小，则移除，知道遍历完成，将元素 add 到队列
      *
      * @param nums
      * @param k
@@ -81,7 +82,7 @@ public class Offer59I {
         }
         // 窗口形成后，队头肯定是最大的元素，add 到 result[0] 中
         result[0] = deque.peekFirst();
-        // 形成窗口后
+        // 形成窗口后，从位置 k 开始，挨个向后遍历，一直遍历到最后一个元素
         for (int i = k; i < nums.length; i++) {
             // 若上一次窗口的队头就是最大值，则需要将其手动移除
             if(deque.peekFirst() == nums[i - k])
