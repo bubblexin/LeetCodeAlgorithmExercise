@@ -39,6 +39,7 @@ A personal repository for practicing algorithms.
 * [Offer57 - II. 和为s的连续正数序列](src/leetcode/offer/Offer57II.java)
 * [Offer59I. 滑动窗口的最大值](src/leetcode/offer/Offer59I.java)
 * [Offer29. 顺时针打印矩阵](src/leetcode/offer/Offer29.java)
+* [Offer53 - I. 在排序数组中查找数字 I](src/leetcode/offer/Offer53I.java)
 
 ## 栈、队列
 
