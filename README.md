@@ -47,7 +47,7 @@ A personal repository for practicing algorithms.
 * [Offer30 包含 min 函数的栈](src/leetcode/offer/Offer30.java)
 * [Solution1381 设计一个支持增量操作的栈](src/leetcode/Solution1381.java)
 * [Offer59 - I. 滑动窗口的最大值](src/leetcode/offer/Offer59I.java) 单调队列
-* [Offer59 - I. 队列的最大值](src/leetcode/offer/Offer59II.java) 单调队列
+* [Offer59 - II. 队列的最大值](src/leetcode/offer/Offer59II.java) 单调队列
 
 ## 树
 * [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
