@@ -40,6 +40,7 @@ A personal repository for practicing algorithms.
 * [Offer59I. 滑动窗口的最大值](src/leetcode/offer/Offer59I.java)
 * [Offer29. 顺时针打印矩阵](src/leetcode/offer/Offer29.java)
 * [Offer53 - I. 在排序数组中查找数字 I](src/leetcode/offer/Offer53I.java)
+* [Offer53 - II. 0～n-1中缺失的数字](src/leetcode/offer/Offer53II.java)
 
 ## 栈、队列
 
