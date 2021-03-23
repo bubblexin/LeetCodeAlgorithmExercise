@@ -53,6 +53,7 @@ A personal repository for practicing algorithms.
 ## 树
 * [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
 * [Offer55 - II. 平衡二叉树](src/leetcode/offer/Offer55II.java)
+* [Offer32 - I. 从上到下打印二叉树](src/leetcode/offer/Offer32I.java)
 
 ## 递归
 

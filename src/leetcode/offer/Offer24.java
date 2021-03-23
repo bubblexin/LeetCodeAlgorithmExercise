@@ -5,7 +5,7 @@ import leetcode.bean.ListNode;
 /**
  * 24. 反转链表
  * https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
- *
+ * <p>
  * 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
  * <p>
  * 示例:
@@ -24,11 +24,12 @@ import leetcode.bean.ListNode;
 public class Offer24 {
     /**
      * 使用双指针法，每次完成相邻两个元素的反转，直到遍历到最后一个节点
-     *  1、定义一个 pre 指针，和一个 cur 指针，pre 指针在 cur 的前面
-     *  2、while 循环的条件是 cur ！= null 的时候，因为当 cur 为空时，证明遍历到最后一个节点了
-     *  3、每次 while 循环中先记录 cur 节点的 next 节点（正常顺序的下一个节点是谁，最后移动当前节点时将其赋值给 cur）
-     *  4、将 pre 赋值给 cur.next，因为 pre 永远在 cur 前边，完成小范围反转
-     *  5、将 cur、pre 向前移动一个位置
+     * 1、定义一个 pre 指针，和一个 cur 指针，pre 指针在 cur 的前面
+     * 2、while 循环的条件是 cur ！= null 的时候，因为当 cur 为空时，证明遍历到最后一个节点了
+     * 3、每次 while 循环中先记录 cur 节点的 next 节点（正常顺序的下一个节点是谁，最后移动当前节点时将其赋值给 cur）
+     * 4、将 pre 赋值给 cur.next，因为 pre 永远在 cur 前边，完成小范围反转
+     * 5、将 cur、pre 向前移动一个位置
+     *
      * @param head
      * @return
      */
@@ -50,6 +51,7 @@ public class Offer24 {
 
     /**
      * 递归实现
+     *
      * @param head
      * @return
      */
@@ -64,5 +66,31 @@ public class Offer24 {
         head.next = null;
 
         return last;
+    }
+
+    /************* 温习一遍  *************/
+    public ListNode reverseTest(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode last = reverseTest(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
+    }
+
+    public ListNode reverseTest2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode left = null, right = head;
+        while (right != null) {
+            ListNode temp = right.next;
+            right.next = left;
+
+            left = right;
+            right = temp;
+        }
+        return left;
     }
 }
