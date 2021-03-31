@@ -41,6 +41,7 @@ A personal repository for practicing algorithms.
 * [Offer29. 顺时针打印矩阵](src/leetcode/offer/Offer29.java)
 * [Offer53 - I. 在排序数组中查找数字 I](src/leetcode/offer/Offer53I.java)
 * [Offer53 - II. 0～n-1中缺失的数字](src/leetcode/offer/Offer53II.java)
+* [Solution88 合并两个有序数组](src/leetcode/Solution88.java)
 
 ## 栈、队列
 
