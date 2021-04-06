@@ -6,7 +6,7 @@ A personal repository for practicing algorithms.
 
 ## 链表
 
-* [Solution2 两数相加](src/leetcode/Solution2.java)
+* [Solution2 两数相加（大数相加）](src/leetcode/Solution2.java)
 * [Offer22 链表中倒数第 k 个节点](src/leetcode/offer/Offer22.java)
 * [Offer25 合并两个排序的链表](src/leetcode/offer/Offer25.java)
 * [Offer24 反转链表](src/leetcode/offer/Offer24.java)
@@ -42,6 +42,7 @@ A personal repository for practicing algorithms.
 * [Offer53 - I. 在排序数组中查找数字 I](src/leetcode/offer/Offer53I.java)
 * [Offer53 - II. 0～n-1中缺失的数字](src/leetcode/offer/Offer53II.java)
 * [Solution88 合并两个有序数组](src/leetcode/Solution88.java)
+* [283 移动 0](src/leetcode/Solution283.java)
 
 ## 栈、队列
 
@@ -55,6 +56,9 @@ A personal repository for practicing algorithms.
 * [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
 * [Offer55 - II. 平衡二叉树](src/leetcode/offer/Offer55II.java)
 * [Offer32 - I. 从上到下打印二叉树](src/leetcode/offer/Offer32I.java)
+* [Offer68 - I. 二叉搜索树的最近公共祖先](src/leetcode/offer/Offer68I.java)
+* [Offer 68 - II. 二叉树的最近公共祖先](src/leetcode/offer/Offer68II.java)
+* [Offer 26 树的子结构](src/leetcode/offer/Offer26.java)
 
 ## 递归
 

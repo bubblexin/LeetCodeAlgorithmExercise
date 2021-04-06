@@ -41,7 +41,7 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer57().twoSum(new int[]{10, 26, 30, 31, 47, 60}, 40)));
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3)));
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1,-1}, 1)));
-        System.out.println(new Offer53I().search(new int[]{1}, 1));
+//        System.out.println(new Offer53I().search(new int[]{1}, 1));
 
     }
 }
