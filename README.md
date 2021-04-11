@@ -12,6 +12,7 @@ A personal repository for practicing algorithms.
 * [Offer24 反转链表](src/leetcode/offer/Offer24.java)
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 * [Offer18 删除链表的节点](src/leetcode/offer/Offer18.java)
+* [Solution92 反转链表 II（定区间反转链表）](src/leetcode/Solution92.java)
 
 ## 字符串：
 
