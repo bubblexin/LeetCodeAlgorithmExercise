@@ -1,10 +1,4 @@
-import leetcode.Solution242;
 import leetcode.offer.*;
-import sort.BubbleSort;
-import sort.QuickSort;
-import sort.SelectSort;
-
-import java.util.Arrays;
 
 
 public class Main {
@@ -42,6 +36,6 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3)));
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1,-1}, 1)));
 //        System.out.println(new Offer53I().search(new int[]{1}, 1));
-
+        System.out.println(new Offer10I().fib2(44));
     }
 }

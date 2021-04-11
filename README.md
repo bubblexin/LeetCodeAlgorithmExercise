@@ -59,8 +59,14 @@ A personal repository for practicing algorithms.
 * [Offer68 - I. 二叉搜索树的最近公共祖先](src/leetcode/offer/Offer68I.java)
 * [Offer 68 - II. 二叉树的最近公共祖先](src/leetcode/offer/Offer68II.java)
 * [Offer 26 树的子结构](src/leetcode/offer/Offer26.java)
+* [Offer 32 - II. 从上到下打印二叉树 II](src/leetcode/offer/Offer32II.java)
+* [剑指 Offer 32 - II. 从上到下打印二叉树 III（之字形打印）](src/leetcode/offer/Offer32III.java)
+* [Offer 27. 二叉树的镜像](src/leetcode/offer/Offer27.java)
 
 ## 递归
 
 * [Offer6 从尾到头打印链表](src/leetcode/offer/Offer6.java)
 * [Offer64 求1+2+…+n](src/leetcode/offer/Offer64.java)
+
+## 动态规划
+* [Offer10I 斐波那契数列](src/leetcode/offer/Offer10I.java)
