@@ -63,6 +63,8 @@ A personal repository for practicing algorithms.
 * [Offer 32 - II. 从上到下打印二叉树 II](src/leetcode/offer/Offer32II.java)
 * [剑指 Offer 32 - II. 从上到下打印二叉树 III（之字形打印）](src/leetcode/offer/Offer32III.java)
 * [Offer 27. 二叉树的镜像](src/leetcode/offer/Offer27.java)
+* [Offer 54. 二叉搜索树的第k大节点](src/leetcode/offer/Offer54.java)
+* [Offer 7. 重建二叉树](src/leetcode/offer/Offer7.java)
 
 ## 递归
 
@@ -71,3 +73,8 @@ A personal repository for practicing algorithms.
 
 ## 动态规划
 * [Offer10I 斐波那契数列](src/leetcode/offer/Offer10I.java)
+
+## 其他
+* [Solution146 LRU 算法的实现（通过继承 LinkedList）](src/leetcode/Solution146.java)
+* [Solution146I LRU 算法的实现（手动实现）](src/leetcode/Solution146I.java)
+* [AnimalShelf 动物收容所（猫狗队列）](src/leetcode/AnimalShelf.java)
