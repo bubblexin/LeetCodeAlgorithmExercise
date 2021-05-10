@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 import static leetcode.Utils.Utils.swapIntArrayElement;
 
+/**
+ * 选择排序
+ */
 public class SelectSort {
     public void sort(int[] nums) {
         // copy 一份数组，不改变原数组内容

@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 import static leetcode.Utils.Utils.swapIntArrayElement;
 
+/**
+ * 冒泡排序
+ */
 public class BubbleSort {
     public void sort(int[] nums) {
         // copy 一份数组，不改变原数组内容

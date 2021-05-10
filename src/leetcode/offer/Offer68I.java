@@ -32,6 +32,7 @@ import leetcode.bean.TreeNode;
 public class Offer68I {
     /**
      * 二叉搜索树，所有子树的左节点都比根节点小，所有子树的右节点都比根节点大
+     * 设节点 root 为节点 p,q 的某公共祖先，若其左子节点 root.left 和右子节点 root.right 都不是 p,q 的公共祖先，则称 root 是 “最近的公共祖先” 。
      * <p>
      * 若 root 是 p,q 的最近公共祖先，则只可能是如下情况
      * 1. p、q 在 root 的子树中，分列 root 两侧

@@ -5,6 +5,7 @@ import java.util.Arrays;
 import static leetcode.Utils.Utils.swapIntArrayElement;
 
 /**
+ * 快排
  * http://data.biancheng.net/view/117.html
  */
 public class QuickSort {

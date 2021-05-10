@@ -1,5 +1,8 @@
 package sort;
 
+/**
+ * 归并排序
+ */
 public class MergeSort {
     // 自上而下的递归
     // O(nlogn)

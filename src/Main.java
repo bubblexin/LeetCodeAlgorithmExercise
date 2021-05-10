@@ -1,4 +1,4 @@
-import leetcode.offer.*;
+import java.util.Arrays;
 
 
 public class Main {
@@ -36,6 +36,7 @@ public class Main {
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3)));
 //        System.out.println(Arrays.toString(new Offer59I().maxSlidingWindow2(new int[]{1,-1}, 1)));
 //        System.out.println(new Offer53I().search(new int[]{1}, 1));
-        System.out.println(new Offer10I().fib2(44));
+//        System.out.println(new Offer10I().fib2(44));
+        System.out.println(Arrays.toString(new TopK().test3(new int[]{1, 2, 3, 4, 5, 6}, 2)));
     }
 }
