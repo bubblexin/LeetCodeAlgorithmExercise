@@ -1,2 +1,3 @@
-class TestKotlin {
+fun main() {
+    val tk = TestK<String>()
 }

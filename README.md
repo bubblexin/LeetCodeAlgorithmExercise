@@ -46,6 +46,7 @@ A personal repository for practicing algorithms.
 * [Offer53 - II. 0～n-1中缺失的数字](src/leetcode/offer/Offer53II.java)
 * [Solution88 合并两个有序数组](src/leetcode/Solution88.java)
 * [283 移动 0](src/leetcode/Solution283.java)
+* [TopK 问题](src/TopK.kt)
 
 ## 栈、队列
 
@@ -56,17 +57,18 @@ A personal repository for practicing algorithms.
 * [Offer59 - II. 队列的最大值](src/leetcode/offer/Offer59II.java) 单调队列
 
 ## 树
+
 * [Offer55 - I. 二叉树的深度](src/leetcode/offer/Offer55I.java)
 * [Offer55 - II. 平衡二叉树](src/leetcode/offer/Offer55II.java)
 * [Offer32 - I. 从上到下打印二叉树](src/leetcode/offer/Offer32I.java)
+* [Offer32 - II. 从上到下打印二叉树 II](src/leetcode/offer/Offer32II.java)
+* [Offer32 - III. 从上到下打印二叉树 III（之字形打印）](src/leetcode/offer/Offer32III.java)
 * [Offer68 - I. 二叉搜索树的最近公共祖先](src/leetcode/offer/Offer68I.java)
-* [Offer 68 - II. 二叉树的最近公共祖先](src/leetcode/offer/Offer68II.java)
-* [Offer 26 树的子结构](src/leetcode/offer/Offer26.java)
-* [Offer 32 - II. 从上到下打印二叉树 II](src/leetcode/offer/Offer32II.java)
-* [剑指 Offer 32 - II. 从上到下打印二叉树 III（之字形打印）](src/leetcode/offer/Offer32III.java)
-* [Offer 27. 二叉树的镜像](src/leetcode/offer/Offer27.java)
-* [Offer 54. 二叉搜索树的第k大节点](src/leetcode/offer/Offer54.java)
-* [Offer 7. 重建二叉树](src/leetcode/offer/Offer7.java)
+* [Offer68 - II. 二叉树的最近公共祖先](src/leetcode/offer/Offer68II.java)
+* [Offer26 树的子结构](src/leetcode/offer/Offer26.java)
+* [Offer27. 二叉树的镜像](src/leetcode/offer/Offer27.java)
+* [Offer54. 二叉搜索树的第k大节点](src/leetcode/offer/Offer54.java)
+* [Offer7. 重建二叉树](src/leetcode/offer/Offer7.java)
 
 ## 递归
 
@@ -74,9 +76,11 @@ A personal repository for practicing algorithms.
 * [Offer64 求1+2+…+n](src/leetcode/offer/Offer64.java)
 
 ## 动态规划
+
 * [Offer10I 斐波那契数列](src/leetcode/offer/Offer10I.java)
 
 ## 其他
+
 * [Solution146 LRU 算法的实现（通过继承 LinkedList）](src/leetcode/Solution146.java)
 * [Solution146I LRU 算法的实现（手动实现）](src/leetcode/Solution146I.java)
 * [AnimalShelf 动物收容所（猫狗队列）](src/leetcode/AnimalShelf.java)
