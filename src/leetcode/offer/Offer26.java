@@ -59,7 +59,7 @@ public class Offer26 {
         if (A == null || A.val != B.val) {  // 如果 A 为空（A 遍历到最后了），或者 A 的值不等于 B 的值（匹配失败），也返回 false
             return false;
         }
-        // 返回值递归判断 A.left 与 B.left 的比较，与上 A.right 与 B.right 的比较
+        // 返回值递归判断 A.left 与 B.left 的比较，与 A.right 与 B.right 的比较
         return isContain(A.left, B.left) && isContain(A.right, B.right);
     }
 }

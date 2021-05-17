@@ -67,30 +67,4 @@ public class Offer24 {
 
         return last;
     }
-
-    /************* 温习一遍  *************/
-    public ListNode reverseTest(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        ListNode last = reverseTest(head.next);
-        head.next.next = head;
-        head.next = null;
-        return last;
-    }
-
-    public ListNode reverseTest2(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        ListNode left = null, right = head;
-        while (right != null) {
-            ListNode temp = right.next;
-            right.next = left;
-
-            left = right;
-            right = temp;
-        }
-        return left;
-    }
 }
