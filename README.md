@@ -87,3 +87,4 @@ A personal repository for practicing algorithms.
 * [Solution146 LRU 算法的实现（通过继承 LinkedList）](src/leetcode/Solution146.java)
 * [Solution146I LRU 算法的实现（手动实现）](src/leetcode/Solution146I.java)
 * [AnimalShelf 动物收容所（猫狗队列）](src/leetcode/AnimalShelf.java)
+* [生产者消费者模型](src/leetcode/ProducerConsumer.java)
