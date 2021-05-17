@@ -15,6 +15,9 @@ A personal repository for practicing algorithms.
 * [Solution92 反转链表 II（定区间反转链表）](src/leetcode/Solution92.java)
 * [Offer52. 两个链表的第一个公共节点](src/leetcode/offer/Offer52.java)
 * [Solution141. 环形链表](src/leetcode/Solution141.java)
+* [Solution142. 环形链表II](src/leetcode/Solution142.java)
+* [Solution876. 链表的中间结点](src/leetcode/Solution876.java)
+* [Solution61. 旋转链表](src/leetcode/Solution61.java)
 
 ## 字符串：
 
